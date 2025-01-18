@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FitCheck Landing Page</title>
+  <link rel="stylesheet" href="login.css">
+</head>
+<body>
+  <div class="background-container">
+    <div class="purple-background"></div>
+    <div class="stars-background"></div>
+  </div>
+
+  <div class="landing-container">
+    <div class="content">
+      <img src="images/white_star_logo.png" alt="Star Icon" class="star-icon">
+      <img src="images/white_FitCheck.png" alt="FitCheck Logo" class="logo-image">
+      <p class="tagline">Create Rate Elevate</p>
+      
+      <div class="button-container" id="button-container">
+        <button class="get-started-btn" id="create-account-btn">Create Account</button>
+        <button class="get-started-btn" id="login-btn">Login</button>
+      </div>
+      
+      <!-- Forms -->
+      <div id="form-container" style="display: none;">
+        <div class="form-wrapper">
+          <form id="create-form" style="display: none;">
+            <h2 class="form-title">Create Account</h2>
+            <input type="email" placeholder="Enter Email" class="form-input"><br>
+            <input type="text" placeholder="Enter Username" class="form-input"><br>
+            <input type="password" placeholder="Enter Password" class="form-input"><br>
+            <input type="password" placeholder="Confirm Password" class="form-input"><br>
+            <div class="form-radio-group">
+              <label><input type="radio" name="user-type" value="user" checked> User</label>
+              <label><input type="radio" name="user-type" value="business"> Business</label>
+              <!-- <label><input type="radio" name="user-type" value="admin"> Admin</label> -->
+            </div>
+            <button type="button" class="finish-btn">Sign Up</button>
+          </form>
+          <form id="login-form" style="display: none;">
+            <h2 class="form-title">Login</h2>
+            <input type="text" placeholder="Enter Username" class="form-input"><br>
+            <input type="password" placeholder="Enter Password" class="form-input"><br>
+            <button type="button" class="finish-btn">Login</button>
+          </form>
+        </div>
+      </div>
+      
+
+      <!-- Back Button -->
+      <button id="back-btn" style="display: none;" class="form-btn">Back</button>
+    </div>
+  </div>
+  <script src="login.js"></script>
+</body>
+</html>

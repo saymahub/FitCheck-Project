@@ -1,0 +1,155 @@
+/* Page Title */
+.page-title {
+    text-align: center;
+    color: #7B88A1;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* feed Container */
+.admin-feed-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #D9D9D9;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0 auto;
+    position: relative;
+    width: 90%;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Flag Icon */
+.admin-flag-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 20px;
+}
+
+.admin-flag-icon img {
+    width: 100%;
+    height: auto;
+}
+
+/* feed Image */
+.admin-feed-image {
+    height: 250px;
+    width: auto;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+
+/* feed Details */
+.admin-feed-details {
+    text-align: left;
+    width: 100%;
+    max-width: 500px;
+}
+
+/* feed Table */
+.admin-feed-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.admin-feed-table th,
+.admin-feed-table td {
+    padding: 10px;
+    text-align: left;
+    font-family: 'Verdana', sans-serif;
+    font-size: 16px;
+}
+
+.admin-feed-table th {
+    background-color: #7B88A1;
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.admin-feed-table td {
+    background-color: #E4E8E6;
+}
+/* Action Buttons Container */
+.admin-action-buttons {
+    display: flex;
+    justify-content: center; /* Center-align buttons horizontally */
+    gap: 15px; /* Adds consistent spacing between buttons */
+    margin-top: 20px;
+}
+/* Buttons */
+.admin-ignore-button,
+.admin-delete-button {
+    width: 150px; /* Consistent width */
+    height: 40px; /* Consistent height */
+    padding: 0; /* Ensure no extra padding affects size */
+    display: flex; /* Use flex to center-align text */
+    justify-content: center; /* Horizontally center text */
+    align-items: center; /* Vertically center text */
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px; /* Adjust font size for readability */
+    font-family: 'Verdana', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.2s ease; /* Smooth hover effect */
+}
+
+.admin-ignore-button {
+    background-color: #7B88A1;
+    color: white;
+}
+
+.admin-ignore-button:hover {
+    background-color: #5B6B91;
+    transform: scale(1.05); /* Slightly enlarge button on hover */
+}
+
+.admin-delete-button {
+    background-color: #C52D24;
+    color: white;
+}
+
+.admin-delete-button:hover {
+    background-color: #E85050;
+    transform: scale(1.05); /* Slightly enlarge button on hover */
+}
+
+.admin-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    z-index: 1000;
+  }
+  
+  .admin-popup p {
+    margin-bottom: 20px;
+    font-size: 18px;
+  }
+  
+  .admin-popup button {
+    background-color: #7B88A1;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .admin-popup button:hover {
+    background-color: #5B6B91;
+  }
+  

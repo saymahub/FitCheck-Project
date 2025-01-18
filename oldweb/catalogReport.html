@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FitCheck Catalog Main Page</title>
+  <link rel="stylesheet" href="catalog.css">
+  <script src="catalog.js" defer></script>
+</head>
+<body>
+  <div class="background">
+    <div class="content-box">
+    
+      <div class="post-card" id="post-card-1">
+        
+        <img src="images/redflag.png" class="flag-button" alt="Red Flag">
+        
+        <div class="reported-content">
+          <p>Post Reported</p>
+          <button class="undo-button" onclick="undoReport('post-card-1')">Undo</button>
+        </div>
+      </div>
+
+      
+      <div class="post-card" id="post-card-2">
+        <img src="images/bananaRepublic.png" alt="Banana Republic Outfit">
+        <div class="info">
+          <div class="brandName">Banana Republic</div>
+          <button class="shop-button">Shop</button>
+        </div>
+        <img src="images/flag.png" class="flag-button" alt="Flag button" onclick="reportPost('post-card-2')">
+      </div>
+    </div>
+
+   
+    <div class="navbar">
+      <div class="bag-container">
+        <img src="images/rectangle.png" alt="Highlight Rectangle" class="highlight-rectangle">
+        <img src="images/bag.png" alt="Shopping Bag Icon" onclick="window.location.href='catalogMain.html'">
+      </div>
+      <img src="images/star.png" alt="Star Icon">
+      <img src="images/profile.png" alt="Profile Icon">
+    </div>
+  </div>
+</body>
+</html>

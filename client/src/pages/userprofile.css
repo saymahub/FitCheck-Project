@@ -1,0 +1,151 @@
+/* General styling */
+body {
+    font-family: 'Verdana', sans-serif;
+    margin: 0;
+    background-color: #f8f9fd;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.userprofile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    padding-top: 20px; 
+    height: 90vh; 
+    margin-top: 90px; 
+}
+
+.userprofile-header {
+    position: fixed;
+    top: 30px; 
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+    gap: 20px; 
+    margin-bottom: 30px; 
+    color: #453b58;
+    font-size: 1.5em;
+}
+
+.userprofile-info {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.userprofile-wardrobe-title-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    padding: 0 20px;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+.userprofile-wardrobe-title {
+    color: #453b58;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.MuiImageList-root {
+    width: 90%; 
+    max-width: 1200px; 
+    height: auto; 
+    max-height: 450px;
+    margin: 0 auto; 
+    background-color: #c3ccdd;
+    border-radius: 8px; 
+}
+
+.userprofile-image-list-item {
+    cursor: pointer; 
+}
+
+.userprofile-image-list-item-img {
+    width: 100%;
+    height: auto;
+    object-fit: contain; 
+    border-radius: 8px; 
+}
+
+.up-wardrobe-container {
+    display: flex;
+    width: 960px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #c3ccdd;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.userprofile-wardrobe-select {
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #8a9bb3;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.userprofile-wardrobe-select:hover {
+    background-color: #7d8fa5;
+}
+
+.userprofile-wardrobe-select .MuiSelect-icon {
+    color: #ffffff;
+}
+
+@media (max-width: 768px) {
+    .userprofile-header {
+        top: 50px;
+        gap: 5px; 
+        margin-bottom: 30px; 
+        font-size: 1em;
+      }
+    
+    .userprofile-picture {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        margin-right: 16px;
+        object-fit: cover; 
+      }
+
+      .up-wardrobe-container {
+        width: 420px;
+      }
+  
+}
+
+
+.userprofile-header-container {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    position: relative;
+    
+}
+
+::-webkit-scrollbar {
+    width: 15px; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(135deg, #a48fcc, #9bb1dd); 
+    border-radius: 10px;
+    border: 2px solid #ffffff; 
+}
+
+::-webkit-scrollbar-track {
+    background: #8f98aa; 
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(135deg, #9080af, #ACB7CD);
+}

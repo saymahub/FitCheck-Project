@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #E4E8E6; 
+}
+
+.analytics-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #7B88A1;
+  border-radius: 10px;
+  overflow: auto;
+}
+
+/* Header styles */
+.bus-dashboard-header {
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 0; 
+}
+.bus-dashboard-header h1 {
+  margin: 0;
+  color: #7B88A1;
+}
+
+.bus-analytics-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 200px;
+  justify-content: flex-start; 
+  margin-top: 20px;
+  padding: 0; 
+  width: 100%;
+}
+.analytics-image {
+  height: 300px;
+  width: auto;
+  margin-right: 20px;
+  border-radius: 8px;
+}
+
+.analytics-details {
+  text-align: left;
+  padding: 10px;
+  width: 100%;
+  max-width: 500px;
+  max-width: 700px;
+
+}
+
+.analytics-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  table-layout: auto; 
+}
+
+  
+  .analytics-table th,
+  .analytics-table td {
+    padding: 10px;
+    text-align: left;
+    color: white;
+    font-family: 'Verdana', sans-serif;
+    font-size: 18px;
+    word-wrap: break-word;
+  }
+  
+  .analytics-table th {
+    background-color: #7B88A1;
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  
+  .analytics-table td {
+    background-color: #7B88A1;
+  }
+
+  
+  .delete-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 50px;
+    background-color: #C52D24;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Verdana', sans-serif;
+    font-weight: bold;
+  }
+  
+  .delete-button:hover {
+    background-color: #e85050;
+  }
+  
+  .bus-upload-btn {
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    display: inline-block;
+  }
+
+  .bus-upload-btn img {
+      width: 30px;
+      height: 30px;
+      cursor: pointer;
+  }
+
+  .uploaded-image {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+  }

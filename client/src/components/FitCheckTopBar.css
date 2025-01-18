@@ -1,0 +1,21 @@
+.top-bar{
+    background-color: #7B88A1;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 10px 0;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    position: fixed; 
+    top: 10px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    z-index: 1000;
+}
+
+.logo{
+    width: auto;
+    height: 75px;
+    object-fit: contain;
+}
